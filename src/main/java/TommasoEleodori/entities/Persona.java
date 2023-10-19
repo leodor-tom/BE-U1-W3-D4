@@ -6,6 +6,7 @@ import javax.persistence.*;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Set;
 
 @Entity
 @Table(name = "persone")
@@ -21,6 +22,14 @@ public class Persona {
     private Sesso sesso;
     @OneToMany(mappedBy = "persona")
     private List<Partecipazione> partecipazioni = new ArrayList<>();
+
+    @OneToMany(mappedBy = "vincitore")
+    private List<GaraDiAtletica> vittorie = new ArrayList<>();
+    @ManyToMany
+    @JoinTable(name = "persone_gare",
+            joinColumns = @JoinColumn(name = "persona_id"),
+            inverseJoinColumns = @JoinColumn(name = "gara_id"))
+    private Set<GaraDiAtletica> gare;
 
     public Persona() {
     }

@@ -4,30 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d1c03ef-6e68-480d-8afd-eafc970b8e04" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TommasoEleodori/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TommasoEleodori/dao/EventoDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TommasoEleodori/dao/LocationDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TommasoEleodori/dao/PartecipazioneDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TommasoEleodori/dao/PersonaDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TommasoEleodori/entities/Evento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TommasoEleodori/entities/Location.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TommasoEleodori/entities/Partecipazione.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TommasoEleodori/entities/PartitaDiCalcio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TommasoEleodori/entities/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TommasoEleodori/enums/Sesso.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TommasoEleodori/enums/Stato.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TommasoEleodori/enums/Tipologia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TommasoEleodori/utils/JpaUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TommasoEleodori/ApplicationTest.java" afterDir="false" />
+    <list default="true" id="125e5ff0-b047-49d8-890c-792f852678af" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/TommasoEleodori/dao/ConcertoDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TommasoEleodori/dao/GaraDiAtleticaDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TommasoEleodori/dao/PartitaDiCalcioDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TommasoEleodori/entities/Concerto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TommasoEleodori/entities/GaraDiAtletica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TommasoEleodori/enums/Genere.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TommasoEleodori/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TommasoEleodori/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TommasoEleodori/entities/PartitaDiCalcio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TommasoEleodori/entities/PartitaDiCalcio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TommasoEleodori/entities/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TommasoEleodori/entities/Persona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TommasoEleodori/utils/JpaUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TommasoEleodori/utils/JpaUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +28,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -45,10 +37,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
   "associatedIndex": 1
 }]]></component>
-  <component name="ProjectId" id="2Wz39aNdqMPcCs9IZBdRBD2G176" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="2Wz6Xbd8z4dZZSas9mwgioTezYM" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -57,26 +49,17 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/tommasoeleodori/Documents/corso BE/BE-U1-W3-D4/src/main/java/TommasoEleodori",
-    "settings.editor.selected.configurable": "configurable.group.com.haulmont.jpb.tools"
+    "git-widget-placeholder": "main"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/TommasoEleodori" />
-      <recent name="$PROJECT_DIR$/src/main" />
-    </key>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1d1c03ef-6e68-480d-8afd-eafc970b8e04" name="Changes" comment="" />
-      <created>1697721432933</created>
+      <changelist id="125e5ff0-b047-49d8-890c-792f852678af" name="Changes" comment="" />
+      <created>1697723102334</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1697721432933</updated>
+      <updated>1697723102334</updated>
     </task>
     <servers />
   </component>

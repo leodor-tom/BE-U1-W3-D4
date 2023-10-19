@@ -16,6 +16,7 @@ public class PartitaDiCalcio  extends Evento{
 
     public PartitaDiCalcio(String squadraCasa, String squadraOspite, String squadraVincente,
                            int golCasa, int golOspite){
+        super();
         if (squadraCasa != null || squadraCasa.trim().isEmpty() || squadraOspite != null ||
         squadraOspite.trim().isEmpty() || golCasa  >= 0 || golOspite >= 0) {
             this.squadraCasa = squadraCasa;
