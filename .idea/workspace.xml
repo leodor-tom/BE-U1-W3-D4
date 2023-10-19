@@ -5,20 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="125e5ff0-b047-49d8-890c-792f852678af" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/TommasoEleodori/dao/ConcertoDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TommasoEleodori/dao/GaraDiAtleticaDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TommasoEleodori/dao/PartitaDiCalcioDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TommasoEleodori/entities/Concerto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TommasoEleodori/entities/GaraDiAtletica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TommasoEleodori/enums/Genere.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TommasoEleodori/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TommasoEleodori/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TommasoEleodori/entities/PartitaDiCalcio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TommasoEleodori/entities/PartitaDiCalcio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TommasoEleodori/entities/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TommasoEleodori/entities/Persona.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TommasoEleodori/utils/JpaUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TommasoEleodori/utils/JpaUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TommasoEleodori/dao/ConcertoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TommasoEleodori/dao/ConcertoDAO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

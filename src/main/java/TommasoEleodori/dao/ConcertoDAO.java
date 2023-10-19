@@ -42,8 +42,21 @@ public class ConcertoDAO {
     }
 
     public List<Concerto> inStreaming() {
-        TypedQuery<Concerto> getInStreaming = em.createQuery("SELECT c FROM Concerto c WHERE c.inStreaming = true");
+        TypedQuery<Concerto> getInStreaming = em.createQuery("SELECT c FROM Concerto c WHERE c.inStreaming = true", Concerto.class);
         return getInStreaming.getResultList();
+    }
+
+    public List<Concerto> concClassico(){
+        TypedQuery<Concerto> getClassico = em.createQuery("SELECT c FROM Concerto c WHERE c.genere = 'CLASSICO' ", Concerto.class);
+        return getClassico.getResultList();
+    }
+    public List<Concerto> conRock(){
+        TypedQuery<Concerto> getRock = em.createQuery("SELECT c FROM Concerto c WHERE c.genere = 'ROCK' ", Concerto.class);
+        return getRock.getResultList();
+    }
+    public List<Concerto> conPop(){
+        TypedQuery<Concerto> getPop = em.createQuery("SELECT c FROM Concerto c WHERE c.genere = 'POP' ", Concerto.class);
+        return getPop.getResultList();
     }
 
 }

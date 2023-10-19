@@ -1,10 +1,17 @@
 package TommasoEleodori.entities;
 
 import javax.persistence.Entity;
+import javax.persistence.NamedQuery;
 import javax.persistence.Table;
 
 @Entity
 @Table(name = "partite_di_calcio")
+@NamedQuery(name = "partiteVinteInCasa",
+query = "SELECT p FROM PartitaDiCalcio p WHERE p.squadraVincente = p.squadraCasa")
+@NamedQuery(name = "partiteVinteInTrasferta",
+        query = "SELECT p FROM PartitaDiCalcio p WHERE p.squadraVincente = p.squadraOspite")
+@NamedQuery(name = "partitePareggiate",
+        query = "SELECT p FROM PartitaDiCalcio p WHERE p.squadraVincente = null")
 public class PartitaDiCalcio  extends Evento{
     private String squadraCasa;
     private String squadraOspite;
